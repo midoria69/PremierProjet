@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: rgb(161, 180, 176);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.border{
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: white;
+   
+}
+
+.color{
+    background-color: red;
+    border-radius: 10px;
+}
+*{
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.space{
+    margin-left: 25px;
+}

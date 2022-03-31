@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="formulaire.css"/>
+</head>
+<body>
+    <h1> Formulaire de DWWM</h1>
+    <form class="border" method="post" action="traitement.php">
+
+        <div class="espace">
+            <label for="pseudo"> Nom</label>
+           <span class="space"><input type="text" name="Nom" id="Nom" placeholder="entrez votre nom"/></span> 
+        </div>    
+     
+        <div class="espace">
+            <label for="mail"> Email</label>
+            <span class="space"><input type="email" name="Email" id="Email" placeholder="entrez votre mail" seize=30/>  
+        </div>
+
+        <div class="espace">
+            <label for="number"> Indiquez votre satisfaction au <br/> cours de 1 à 10</label>
+            <span class="space"><input type="number" name="Number" id="Number" placeholder="numéro de 1 à 10" seize=30/>  
+        </div>
+                
+        <div class="espace">
+            <label for="coach"> Qui est votre coach ?</label>
+            <select id="coach" name="coach" placeholder="choisis"> 
+              <option value="#"> Birante</option>
+              <option value="#"> Malick</option>
+              <option value="#"> Mamadou</option>
+            </select>
+        </div>
+
+        <div class="espace">
+            <label for="times"> A quel moment avez vous cours ?</label>
+             <input type="radio" name="moment"/> Matin <br/>
+            <input type="radio"name="moment"/> Après midi <br/>
+            <input type="radio"name="moment"/> Soir <br/>
+        </div>
+
+        <div class="espace">
+                <label for="language"> Quels language maitrisez-vous le mieux ?</label>
+                <input type="checkbox" name="HTML" id="HTML"/> HTML <br/>
+                <input type="checkbox" name="CSS" id="CSS"/> CSS <br/>
+                <input type="checkbox"name="JavaScrpt" id="JavaScrpt"/> JavaScrpt <br/>
+                <input type="checkbox"name="HTML" id="Editeur de Texte"/> Editeur de Texte<br/>
+                <input type="checkbox"name="Ligne de commande" id="Ligne de commande"/> Ligne de commande <br/>
+        </div>
+                   
+         <div class="espace"> 
+                <label for="describ"> Décrivez votre expérience jusque là</label>
+                <textarea> Décrivez votre expérience ici ...</textarea>
+         </div>
+
+        <footer>
+            <p>
+                <div><input type="submit" value="envoyer" class="color"/></div>
+            </p> 
+         </footer> 
+         
+    </form>
+</body>
+</html>
